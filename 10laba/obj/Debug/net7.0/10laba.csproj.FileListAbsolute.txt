@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\10laba\10laba\bin\Debug\net7.0\10laba.exe
+C:\Users\Administrator\source\repos\10laba\10laba\bin\Debug\net7.0\10laba.deps.json
+C:\Users\Administrator\source\repos\10laba\10laba\bin\Debug\net7.0\10laba.runtimeconfig.json
+C:\Users\Administrator\source\repos\10laba\10laba\bin\Debug\net7.0\10laba.dll
+C:\Users\Administrator\source\repos\10laba\10laba\bin\Debug\net7.0\10laba.pdb
+C:\Users\Administrator\source\repos\10laba\10laba\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.csproj.CopyComplete
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.dll
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\refint\10laba.dll
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.pdb
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\10laba.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\10laba\10laba\obj\Debug\net7.0\ref\10laba.dll
