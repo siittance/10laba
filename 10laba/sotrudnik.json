@@ -1,5 +1,24 @@
 [
   {
-
+    "surname": "Иванова",
+    "namee": "Юлия",
+    "middlename": "Викторовна",
+    "datarod": "27.09.2006",
+    "passportNomSer": "4593 838388",
+    "dolshnost": "tipovbral",
+    "zp": 5,
+    "user_id": 3,
+    "id": 1
+  },
+  {
+    "surname": "Иванова",
+    "namee": "Юлечка",
+    "middlename": "Викторовна",
+    "datarod": "27.09.2006",
+    "passportNomSer": "4528 8323",
+    "dolshnost": "skladmen",
+    "zp": 3,
+    "user_id": 5,
+    "id": 5
   }
 ]

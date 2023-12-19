@@ -17,7 +17,17 @@ static class Serialization
 
     public static tipe Deserialization<tipe> (string path)
     {
-        string json = File.ReadAllText (path);
+        string json = "";
+        try
+        {
+            json = File.ReadAllText(path);
+
+        }
+        catch (Exception)
+        {
+            File.Create(path).Close (); 
+            json = File.ReadAllText(path);
+        }
         tipe data = JsonConvert.DeserializeObject <tipe>(json);
         return data; //возврат значения дата
     }

@@ -65,15 +65,13 @@ namespace _10laba
                                 Console.WriteLine("|                      Вы prodashnik                        |");
                                 Console.WriteLine("|-----------------------------------------------------------|");
                                 break;
-                            case "skladmen":
-                                Console.WriteLine("|-----------------------------------------------------------|");
-                                Console.WriteLine("|                      Вы skladmen                          |");
-                                Console.WriteLine("|-----------------------------------------------------------|");
+                            case "skladmen": //также как админ
+                                axyi.skladmen(); 
+                                Thread.Sleep(1000);
                                 break;
-                            case "tipovbral":
-                                Console.WriteLine("|-----------------------------------------------------------|");
-                                Console.WriteLine("|                      Вы tipovbral                         |");
-                                Console.WriteLine("|-----------------------------------------------------------|");
+                            case "tipovbral": //также как админ
+                                axyi.tipovbral();
+                                Thread.Sleep(1000);
                                 break;
                         }
                     }

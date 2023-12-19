@@ -22,7 +22,7 @@ internal class sotrudnik: ID
     public string namee { get; set; }
     public string middlename { get; set; }
     public string datarod { get; set; }
-    public int PassportNomSer { get; set; }
+    public string passportNomSer { get; set; }
     public string dolshnost { get; set; }
     public int zp {  get; set; }
     public int user_id { get; set; }
@@ -46,6 +46,7 @@ internal class pathjson //хранит пути до json :_)
 {
     public string pathdlyaavtoriz = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\avtorizacia.json";
     public string pathdlyasotrudnik = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\sotrudnik.json";
+    public string pathdlyasklad = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\sklad.json";
 }
   
 

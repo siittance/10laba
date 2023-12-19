@@ -1,1 +1,26 @@
-[{"role":"adm","Login":"adm","Password":"adm","id":1},{"role":"buh","Login":"1","Password":"jjj","id":2}]
+[
+  {
+    "role": "adm",
+    "Login": "adm",
+    "Password": "adm",
+    "id": 1
+  },
+  {
+    "role": "tipovbral",
+    "Login": "Julia",
+    "Password": "1234",
+    "id": 3
+  },
+  {
+    "role": "buh",
+    "Login": "8",
+    "Password": "kgf",
+    "id": 4
+  },
+  {
+    "role": "skladmen",
+    "Login": "sklad",
+    "Password": "sklad",
+    "id": 5
+  }
+]
