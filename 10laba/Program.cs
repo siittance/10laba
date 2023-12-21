@@ -6,7 +6,8 @@ namespace _10laba
 {
     internal class Program
     {
-        static void Main(string[] args)
+
+        internal static void Main()
         {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
             Console.InputEncoding = Encoding.UTF8;

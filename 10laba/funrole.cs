@@ -284,9 +284,9 @@ public class funrole
                 var colvo = tovars[vibor].skokavsego;
                 var price = tovars[vibor].odnashtykacena;
                 key = Console.ReadKey(true);
-                switch (key.KeyChar)
+                switch (key.Key)
                 {
-                    case '+':
+                    case ConsoleKey.OemPlus:
                         if (r < colvo)
                         {
                             r++;
@@ -298,11 +298,11 @@ public class funrole
                         }
 
                         break;
-                    case '-':
+                    case ConsoleKey.OemMinus:
                         if (r > 0) r--;
 
                         break;
-                    case 's':
+                    case ConsoleKey.S:
                         var pokypkas = Serialization.Deserialization<List<pokypka>>(pathjson.pathpokypki);
                         var all_prise = price * r;
                         tovars[vibor].skokavsego = colvo - r;
@@ -311,12 +311,15 @@ public class funrole
                         pokyp.cenavsego = all_prise;
                         pokyp.chokupili = tovars[vibor].naimenovanie;
                         pokypkas.Add(pokyp);
-
                         Serialization.Sirialize(pokypkas, pathjson.pathpokypki);
                         Serialization.Sirialize(tovars, pathjson.pathdlyasklad);
                         end = false;
                         break;
+                    case ConsoleKey.E:
+                        Program.Main();
+                        break;
 
+                       
 
 
 
