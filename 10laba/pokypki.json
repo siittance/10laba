@@ -1,0 +1,37 @@
+[
+  {
+    "chokupili": null,
+    "cenavsego": 0,
+    "skokavsego": 0
+  },
+  {
+    "chokupili": "Морковка",
+    "cenavsego": 70,
+    "skokavsego": 2
+  },
+  {
+    "chokupili": "Золото",
+    "cenavsego": 1130,
+    "skokavsego": 2
+  },
+  {
+    "chokupili": "trash",
+    "cenavsego": 312000,
+    "skokavsego": 39
+  },
+  {
+    "chokupili": "trash",
+    "cenavsego": 0,
+    "skokavsego": 0
+  },
+  {
+    "chokupili": "что-то крутое",
+    "cenavsego": 0,
+    "skokavsego": 0
+  },
+  {
+    "chokupili": "trash",
+    "cenavsego": 0,
+    "skokavsego": 0
+  }
+]

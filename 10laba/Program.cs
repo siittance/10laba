@@ -22,7 +22,7 @@ namespace _10laba
                 string login = Console.ReadLine();
                 Console.WriteLine("Вводи пароль: ");
                 string parol = "";
-                ConsoleKeyInfo nashimalka;    
+                ConsoleKeyInfo nashimalka;
                 do
                 {
                     nashimalka = Console.ReadKey(true);
@@ -52,31 +52,29 @@ namespace _10laba
                         switch (item.role)
                         {
                             case "adm":
-                                axyi.adm();
+                                axyi.adm(item.id);
                                 Thread.Sleep(1000);
                                 break;
                             case "buh":
-                                Console.WriteLine("|-----------------------------------------------------------|");
-                                Console.WriteLine("|                        Вы buh                             |");
-                                Console.WriteLine("|-----------------------------------------------------------|");
+                                axyi.buh(item.id);
+                                Thread.Sleep(1000);
                                 break;
                             case "prodashnik":
-                                Console.WriteLine("|-----------------------------------------------------------|");
-                                Console.WriteLine("|                      Вы prodashnik                        |");
-                                Console.WriteLine("|-----------------------------------------------------------|");
+                                axyi.prodashnik(item.id);
+
                                 break;
                             case "skladmen": //также как админ
-                                axyi.skladmen(); 
+                                axyi.skladmen(item.id);
                                 Thread.Sleep(1000);
                                 break;
                             case "tipovbral": //также как админ
-                                axyi.tipovbral();
+                                axyi.tipovbral(item.id);
                                 Thread.Sleep(1000);
                                 break;
                         }
                     }
                 }
-            } 
+            }
         }
     }
 }

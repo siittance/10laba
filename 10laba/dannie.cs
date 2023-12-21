@@ -10,13 +10,13 @@ internal class ID
 {
     public int id { get; set; }
 }
-internal class user: ID
+internal class user : ID
 {
     public string Login { get; set; }
     public string Password { get; set; }
     public string role = "";
 }
-internal class sotrudnik: ID
+internal class sotrudnik : ID
 {
     public string surname { get; set; }
     public string namee { get; set; }
@@ -24,11 +24,11 @@ internal class sotrudnik: ID
     public string datarod { get; set; }
     public string passportNomSer { get; set; }
     public string dolshnost { get; set; }
-    public int zp {  get; set; }
+    public int zp { get; set; }
     public int user_id { get; set; }
 }
 
-internal class tovar: ID
+internal class tovar : ID
 {
     public string naimenovanie { get; set; }
     public int odnashtykacena { get; set; }
@@ -47,7 +47,5 @@ internal class pathjson //хранит пути до json :_)
     public string pathdlyaavtoriz = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\avtorizacia.json";
     public string pathdlyasotrudnik = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\sotrudnik.json";
     public string pathdlyasklad = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\sklad.json";
+    public string pathpokypki = "C:\\Users\\Administrator\\source\\repos\\10laba\\10laba\\pokypki.json";
 }
-  
-
-
